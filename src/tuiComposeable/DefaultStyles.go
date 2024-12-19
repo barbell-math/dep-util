@@ -1,4 +1,4 @@
-package composeable
+package tuicomposeable
 
 import lg "github.com/charmbracelet/lipgloss"
 
