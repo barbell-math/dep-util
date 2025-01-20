@@ -4,10 +4,10 @@ go 1.23.3
 
 // Enable for local testing
 // Note that having these enabled will make CI mergegate fail. This is by design.
-// replace github.com/barbell-math/util v0.0.1 => ../util
+// replace github.com/barbell-math/util v0.0.2 => ../util
 
 require (
-	github.com/barbell-math/util v0.0.1
+	github.com/barbell-math/util v0.0.2
 	github.com/charmbracelet/bubbles v0.20.0
 	github.com/charmbracelet/bubbletea v1.2.4
 	github.com/charmbracelet/lipgloss v1.0.0

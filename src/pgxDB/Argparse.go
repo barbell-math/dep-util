@@ -12,6 +12,9 @@ import (
 )
 
 type (
+	// A type that implements the [computers.Computer] interface type from
+	// the util/argparse package. This computer takes a set of database values
+	// and creates a connection pool to a postgres server using pgx.
 	ConnPoolComputer struct {
 		ConnInfo *db.ArgparseVals
 	}
